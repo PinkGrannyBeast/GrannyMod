@@ -1,0 +1,3 @@
+author = PinkGranny
+version = 0.1
+displayName = GrannyHotMod
