@@ -55,7 +55,7 @@ namespace GrannyHotMod.Items
         }
         public override Vector2? HoldoutOffset()
         {
-            return new Vector2(-36, 0);
+            return new Vector2(-17, 0);
         }
     }
 }
