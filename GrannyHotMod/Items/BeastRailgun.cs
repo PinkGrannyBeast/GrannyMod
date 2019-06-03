@@ -14,11 +14,11 @@ namespace GrannyHotMod.Items
     	
   public override void SetDefaults()
     	{
-   item.damage = 30;
+   item.damage = 56;
    item.ranged = true;
    item.width = 40;
    item.height = 40;
-   item.useTime = 4;
+   item.useTime = 3;
    item.useAnimation = 20;
    item.useStyle = 5;
    item.noMelee = true;
@@ -28,7 +28,7 @@ namespace GrannyHotMod.Items
    item.UseSound = SoundID.Item11;
    item.autoReuse = true;
    item.shoot = 10;
-   item.shootSpeed = 6f;
+   item.shootSpeed = 26f;
    item.useAmmo = AmmoID.Bullet;
   }
 		public override void AddRecipes() 
@@ -36,7 +36,7 @@ namespace GrannyHotMod.Items
 			ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(null, "LesserHealingPotionBar", 10);
             recipe.AddIngredient(null, "DirtBar", 10);
-            recipe.AddIngredient(null, "BeastSauce", 18);
+            recipe.AddIngredient(null, "BeastSauce", 11);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
@@ -54,7 +54,7 @@ namespace GrannyHotMod.Items
     	
     	public override Vector2? HoldoutOffset()
   {
-   return new Vector2(-33, 0);
+   return new Vector2(-13, 0);
   }
  }
 }
