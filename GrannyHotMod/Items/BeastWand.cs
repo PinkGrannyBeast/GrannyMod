@@ -12,7 +12,7 @@ namespace GrannyHotMod.Items
 		}
 
 		public override void SetDefaults() {
-			item.damage = 70;
+			item.damage = 73;
 			item.magic = true;
 			item.mana = 4;
 			item.width = 70;
@@ -26,7 +26,7 @@ namespace GrannyHotMod.Items
 			item.rare = 11;
 			item.UseSound = SoundID.Item20;
 			item.autoReuse = true;
-			item.shoot = 618;
+			item.shoot = 521;
 			item.shootSpeed = 16f;
 		}
 
