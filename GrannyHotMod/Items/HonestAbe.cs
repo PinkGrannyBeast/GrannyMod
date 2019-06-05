@@ -14,7 +14,7 @@ namespace GrannyHotMod.Items
     	
   public override void SetDefaults()
     	{
-   item.damage = 1256;
+   item.damage = 2431;
    item.ranged = true;
    item.width = 40;
    item.height = 40;
@@ -28,7 +28,7 @@ namespace GrannyHotMod.Items
    item.UseSound = SoundID.Item11;
    item.autoReuse = true;
    item.shoot = 10;
-   item.shootSpeed = 2f;
+   item.shootSpeed = 20f;
    item.useAmmo = AmmoID.Bullet;
   }
   public override void AddRecipes()
