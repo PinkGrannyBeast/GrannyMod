@@ -14,7 +14,7 @@ namespace GrannyHotMod.Items
     	
         public override void SetDefaults()
     	   {
-           item.damage = 2451; 
+           item.damage = 1751; 
            item.ranged = true;
            item.width = 40;
            item.height = 40;
@@ -24,7 +24,7 @@ namespace GrannyHotMod.Items
            item.noMelee = true;
            item.knockBack = 4;
            item.value = 10000;
-           item.rare = 4;
+           item.rare = 6;
            item.UseSound = SoundID.Item11;
            item.autoReuse = true;
            item.shoot = mod.ProjectileType("AbeProj");
@@ -35,7 +35,7 @@ namespace GrannyHotMod.Items
         public override void AddRecipes()
     	   {
            ModRecipe recipe = new ModRecipe(mod);
-           recipe.AddIngredient(null, "BeastSauce", 14);
+           recipe.AddIngredient(null, "BeastSauce", 18);
            recipe.AddIngredient(null, "AbrahamLincoln");
            recipe.AddIngredient(ItemID.Cannon);
            recipe.AddIngredient(ItemID.Cannonball, 10);
