@@ -14,7 +14,7 @@ namespace GrannyHotMod.Items
     	
   public override void SetDefaults()
     	{
-   item.damage = 56;
+   item.damage = 66;
    item.ranged = true;
    item.width = 40;
    item.height = 40;
