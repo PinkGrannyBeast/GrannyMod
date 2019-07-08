@@ -14,12 +14,12 @@ namespace GrannyHotMod.Items
     	
         public override void SetDefaults()
     	   {
-           item.damage = 1751; 
+           item.damage = 751; 
            item.ranged = true;
            item.width = 40;
            item.height = 40;
-           item.useTime = 50;
-           item.useAnimation = 50;
+           item.useTime = 54;
+           item.useAnimation = 54;
            item.useStyle = 5;
            item.noMelee = true;
            item.knockBack = 4;
